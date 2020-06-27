@@ -26,8 +26,11 @@ The new dataframe, tidy1, is rearranged and cleaned up.
 VARIABLES
 
 xtrain, ytrain, xtest, ytest, subject_train and subject_test contain data from the downloaded files.
+
 features is downloaded data containing the column names of xtest and xtrain tables
+
 activityLabels is downloaded and is an index file giving a description of each activityId number
 
 MergeTrain, MergeTest and MergeAll are created by the script and contain the analysis data
+
 OnlyMeanSD is a dataframe containing only the mean and standard deviations variables
