@@ -12,3 +12,9 @@ The script in this repo entitled "run_analysis.R" does the following steps:
 3) Reads in the training and testing tables
 4) Reads in features and activity labels tabless
 5) Merges training and testing files into one table
+
+6) The main merged file is parsed to include only variables that are mean or standard deviation
+7) Activity labels are assigned to all instances
+
+8) In a new dataframe (tidy1), a mean for each subject's mean and standard deviation columns is calculated for each different activity.  This is done with a recursive loop.
+The new dataframe, tidy1, is rearranged and cleaned up.
