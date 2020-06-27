@@ -7,7 +7,9 @@ CodeBook.md gives a description of the process used, the variables, data and the
 
 run_analysis.R contains all the code to perform the analyses described in the 5 steps. The code was written in RStudio v 1.3.959, in MacOSX 10.14.6
 
-It should be noted that using this OS and Safari, the file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip downloaded UNZIPPED, this that step was not necessary in the code.  The individual files were in some subfolders, the the download was not zipped.  This is evident in the run_analysis.R code.
+It should be noted that using this OS and Safari, the file from 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+downloaded UNZIPPED, thus that step was not necessary in the code.  The individual files were in some subfolders, but the DOWNLOAD WAS NOT ZIPPED.  This will be evident in the run_analysis.R code.
 
 Merges the training and the test sets to create one data set.
 Extracts only the measurements on the mean and standard deviation for each measurement.
