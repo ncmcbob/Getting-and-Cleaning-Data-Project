@@ -19,4 +19,4 @@ The script in this repo entitled "run_analysis.R" does the following steps:
 8) In a new dataframe (tidy1), a mean for each subject's mean and standard deviation columns is calculated for each different activity.  This is done with a recursive loop.
 The new dataframe, tidy1, is rearranged and cleaned up.
 
-tidy1 is written to "TidyData.txt"
+9) tidy1 is written to "TidyData.txt"
